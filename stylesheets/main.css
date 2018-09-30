@@ -1,0 +1,92 @@
+html {
+  background-color: lightgray;
+}
+
+body {
+  font-family: tahoma;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+header {
+  background-color: FireBrick;
+  color: white;
+  padding: 10px 20px 30px 20px;
+}
+
+h1 {
+  font-size: 20px;
+  display: inline;
+  float: left;
+}
+
+#login {
+  float: right;
+  color: white;
+  font-size: 12px;
+  opacity: .9;
+}
+
+h2 {
+  font-size: 14px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 13px;
+  padding: 8px 0px;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 11px;
+  padding: 10px;
+}
+
+.pages {
+  background-color: rgb(40, 40, 40);
+  padding: 12px 12px;
+  text-align: right;
+  font-size: 12px;
+}
+
+footer {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+}
+
+#main-page {
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 6%;
+}
+
+#main-image {
+  grid-area: 1 / 1 / span 3 / span 1;
+}
+
+a {
+  grid-area: 1 / 2 / span 1 / span 1;
+}
+
+b {
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+c {
+  grid-area: 3 / 2 / span 1 / span 1;
+}
+
+.external-link {
+  color: white;
+  padding: 0px 10px;
+  opacity: .9;
+}
